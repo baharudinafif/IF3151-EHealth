@@ -10,15 +10,12 @@
 				<li>
 				  <img src="images/caro_consult.png" alt="">
 				</li>
-
 				<li>
 				  <img src="images/caro_reminder.png" alt="">
 				</li>
-
 				<li>
 				  <img src="images/caro_schedule.png" alt="">
 				</li>
-
 			  </ul>
 
 		</div>
