@@ -36,33 +36,6 @@ body a{
 	width: 100px;
 }
 
-.MenuBar{
-	width:100%;
-	height:50px;
-	position:fixed;
-	background:#000000;
-	font-family:"arial";
-	color:#DBDBDB;
-	margin: 0px;
-	padding: 0px;
-	top:150px;
-	left:0px;
-	right:0px;
-	bottom:0px;
-	z-index:10;
-	}
-	
-.MenuBar ul {
-	position:relative;	
-	margin:0px;		
-	padding:0px;
-}
-
-.MenuBar ul li {
-	display:inline-table;
-	padding:10px;
-	margin:5px 10px;
-	}
 
 #image_header{
 	background-image:url('images/header.png');
