@@ -25,8 +25,9 @@
 			<ul>			
 				<?php
 					if (isset($_SESSION['username'])){
-						echo '<li><a href="buatpesan.php">Konsultasi</a></li>';
-				echo '<li><a href="index.php">Home</a></li>';
+					echo '<li><a href="index.php">Home</a></li>';
+					echo '<li><a href="buatpesan.php">Konsultasi</a></li>';
+				
 
 				echo '<li><a href="jadwal.php" >Reservasi Check-Up</a></li>';
 				echo '<li><a href="kalender.php" >Reminder</a></li>';
