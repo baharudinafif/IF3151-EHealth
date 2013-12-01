@@ -22,12 +22,16 @@
 			</ul>			
 		</div>
 		<div class="MenuBar">			
-			<ul>
+			<ul>			
 				<li><a href="index.php">Home</a></li>
-				<li><a href="buatpesan.php">Konsultasi</a></li>
-				<li><a href="#" >Reservasi Check-Up</a></li>
-				<li><a href="kalender.php" >Reminder</a></li>
-				<li><a href="daftarkoneksi.php">Koneksi</a></li>
+				<?php
+					if (isset($_SESSION['username'])){
+						echo '<li><a href="buatpesan.php">Konsultasi</a></li>';
+				echo '<li><a href="jadwal.php" >Reservasi Check-Up</a></li>';
+				echo '<li><a href="kalender.php" >Reminder</a></li>';
+				echo '<li><a href="daftarkoneksi.php">Koneksi</a></li>';
+					}
+				?>
 			</ul>			
 		</div>
 
