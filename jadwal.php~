@@ -2,6 +2,22 @@
 	include 'header.php';
 	?>
 <link rel="stylesheet" type="text/css" href="jadwal.css">
+ <link rel="stylesheet" href="datepicker/themes/base/jquery-ui.css">
+<script src="datepicker/jquery-1.9.1.js"></script>
+<script src="datepicker/ui/jquery-ui.js"></script>
+
+ <script>
+ $(function()
+ {
+	var opts = 
+	{
+		showOn : "button",
+		buttonText: "Lihat/Sembunyikan Datepicker"
+	};
+	$( ".tgl" ).datepicker(opts);
+});
+</script>
+
 <div id="Content">
 	<ul>		
 		<li id="side_bar" style="width:30%">

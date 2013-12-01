@@ -218,10 +218,10 @@ body a{
 
 .delete{
 	opacity:0.6;
-	height:25px;
-	width:25px;	
+	height:30px;
+	width:30px;	
 	background-image:url('images/hapus.png');
-	background-size:20px 20px;
+	background-size:25px 25px;
 	line-height:10px;
 	position:absolute;
 	background-repeat:no-repeat;	
@@ -321,7 +321,7 @@ body a{
 }
 #acceptNama ul li{
 	top:-10px;
-	padding:5px 5px;
+	padding:5px 10px;
 	margin:0px;
 }
 
@@ -344,7 +344,7 @@ body a{
 .accept{
 	background-image:url('images/accept.png');
 	background-repeat:no-repeat;
-	background-size:20px 20px;
+	background-size:25px 25px;
 	width:25px;
 	height:25px;
 	opacity:0.5;
@@ -366,12 +366,12 @@ body a{
     bottom: 0;
     cursor: default;
     left: 0;
-    opacity: 0;
+    opacity:0;
     position: fixed;
     right: 0;
     top: 0;
     visibility: hidden;
-    z-index: 1;
+    z-index: 10;
 
     -webkit-transition: opacity .7s;
     -moz-transition: opacity .7s;
@@ -381,10 +381,10 @@ body a{
 }
 .overlay:target {
     visibility: visible;
-    opacity: 1;
+    opacity:1;
 }
 .popup {
-    background-color: #fff;
+    background: #FAF0BD;
     border: 3px solid #fff;
     display: inline-block;
     left: 50%;
@@ -474,3 +474,26 @@ body a{
 .popup input[type="text"]:hover, .popup input[type="password"]:hover {
     border-color: #555 #888 #888;
 }
+
+.accBut{	
+	opacity:0.6;
+	height:30px;
+	width:30px;	
+	background-image:url('images/accept.png');
+	background-size:25px 25px;
+	position:absolute;
+	background-repeat:no-repeat;	
+}
+
+.accBut:hover{
+	opacity:1;
+	cursor:pointer;
+	
+    -webkit-transition: opacity .7s;
+    -moz-transition: opacity .7s;
+    -ms-transition: opacity .7s;
+    -o-transition: opacity .7s;
+    transition: opacity .7s;
+
+}
+

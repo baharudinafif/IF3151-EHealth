@@ -23,10 +23,11 @@
 		</div>
 		<div class="MenuBar">			
 			<ul>			
-				<li><a href="index.php">Home</a></li>
 				<?php
 					if (isset($_SESSION['username'])){
 						echo '<li><a href="buatpesan.php">Konsultasi</a></li>';
+				echo '<li><a href="index.php">Home</a></li>';
+
 				echo '<li><a href="jadwal.php" >Reservasi Check-Up</a></li>';
 				echo '<li><a href="kalender.php" >Reminder</a></li>';
 				echo '<li><a href="daftarkoneksi.php">Koneksi</a></li>';

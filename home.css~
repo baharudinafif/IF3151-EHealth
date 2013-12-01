@@ -9,11 +9,11 @@
     width:300%; /* Number of panes * 100% */
     overflow:hidden; /* This is used solely to clear floats, it does not add functionality. */
 
-    -webkit-animation:carousel 20s infinite;        
-    -moz-animation:carousel 20s infinite;
-    -ms-animation:carousel 20s infinite;
-    -o-animation:carousel 20s infinite;        
-    animation:carousel 10s infinite;
+    -webkit-animation:carousel 15s infinite;        
+    -moz-animation:carousel 15s infinite;
+    -ms-animation:carousel 15s infinite;
+    -o-animation:carousel 15s infinite;        
+    animation:carousel 15s infinite;
 }
 .panes > li{
     position:relative;
@@ -38,6 +38,18 @@
     text-align:right;
     color:#fff;
     background-color:rgba(0,0,0,0.75);
+}
+
+@-webkit-keyframes carousel{
+    0%    { left:0; }
+    24%   { left:0; }
+    25% { left:-100%; }
+    49% { left:-100%; }
+    50%   { left:-200%; }
+    74%   { left:-200%; }
+    75% { left:-100%; }
+    99% { left:-100%; }
+    100%  { left:0; }
 }
 
 @keyframes carousel{

@@ -3,7 +3,7 @@
 ?>
 <link rel="stylesheet" type="text/css" href="home.css">
 <div id="Content">
-		<div class="carousel">
+		<div class="carousel slide">
 
 			  <ul class="panes">
 
@@ -17,8 +17,7 @@
 				  <img src="images/caro_schedule.png" alt="">
 				</li>
 			  </ul>
-
-		</div>
+ 		</div>
 </div>
 
 <?php
