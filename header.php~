@@ -4,7 +4,7 @@
 ?>
 <html> 
 	<head>
-		<link rel="stylesheet" type="type/css" href="css/style.css">
+		<link rel="stylesheet" type="type/css" href="style.css">
 		<title>E-Health</title>
 	</head>	
 	<body>
