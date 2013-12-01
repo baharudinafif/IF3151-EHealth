@@ -24,9 +24,9 @@
 		<div class="MenuBar">			
 			<ul>
 				<li><a href="index.php">Home</a></li>
-				<li><a>Konsultasi</a></li>
-				<li><a>Reservasi Check-Up</a></li>
-				<li><a>Reminder</a></li>
+				<li><a href="buatpesan.php">Konsultasi</a></li>
+				<li><a href="#" >Reservasi Check-Up</a></li>
+				<li><a href="kalender.php" >Reminder</a></li>
 				<li><a href="daftarkoneksi.php">Koneksi</a></li>
 			</ul>			
 		</div>
