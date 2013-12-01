@@ -13,7 +13,7 @@
 				<?php
        			if (!isset($_SESSION['username'])){
 					echo '<li><a id="but1" href="#login_form" type="button">Log In</a></li>
-						<li><button id="but1" href="" type="button">Sign Up</button></li>';
+						<li><a id="but1" href="register.php" type="button">Sign Up</a></li>';
 					}else{
 					echo '<li><a id="but1" href="logout.php" type="button">Log Out</a></li>
 						<li><button id="but1" href="" type="button">Profile</button></li>';

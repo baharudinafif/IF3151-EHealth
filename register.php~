@@ -6,7 +6,7 @@
 <div id="ContentRegister">
 	<div id="container">
 	<form id="registerform" name="regform" class="rounded" method="post" action="registersuccess.php">
-		<img src="images/Register.png" width="300px">
+		<img src='images/Register.png' width="300px">
 		<p>(*) Harus diisi.</p>
 		<p>Data yang Anda isi akan kami jamin keamanannya.</p>
 		

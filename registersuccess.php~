@@ -2,7 +2,7 @@
 	include 'header.php';
 	?>
 
-<link rel="stylesheet" type="type/css" href="register.css">
+<link rel="stylesheet" type="type/css" href="css/register.css">
 <div id="ContentRegister">
 	<div id="container">
 		<h2>Registrasi Berhasil!</h2>

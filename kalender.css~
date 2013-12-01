@@ -77,7 +77,7 @@
 
 #container .fieldButton {
 	clear: both;
-	margin-top:20px;	
+	margin-top:120px;	
 }
 
 #container .field:hover .hint {
